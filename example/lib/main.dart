@@ -16,8 +16,9 @@ class MyApp extends StatelessWidget {
     });
 
     MatomoTracker().initialize(
-      siteId: 1,
-      url: 'https://analytics.example.com/piwik.php',
+      siteId: 7,
+      url: 'https://matomo.221133.xyz/piwik.php',
+      visitorId: "eeee"
     );
   }
   // This widget is the root of your application.
